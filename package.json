@@ -1,0 +1,29 @@
+{
+  "name": "@croquet/audio-sync",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "build": "parcel build src/*.html --public-url ."
+  },
+  "author": "",
+  "license": "Apache",
+  "browserslist": {
+    "production": [
+      "> 5%"
+    ],
+    "development": [
+      "last 1 Chrome version",
+      "last 1 Firefox version",
+      "last 1 Safari version",
+      "last 1 iOS major version"
+    ]
+  },
+  "dependencies": {
+    "bowser": "^2.11.0",
+    "pepjs": "^0.5.3"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-rc.0",
+    "parcel-plugin-clean-dist": "0.0.6"
+  }
+}
